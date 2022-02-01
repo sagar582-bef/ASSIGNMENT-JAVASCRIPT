@@ -1,4 +1,4 @@
-console.log("hii");
+
 var obj={
     name:"sagar",
     lastname:"manna",
