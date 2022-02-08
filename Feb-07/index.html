@@ -13,13 +13,13 @@
 </head>
 <body style="background-color: aqua;">
     <form>
-<input type="text" placeholder="Enter Your name" required name="name"  size="25" minlength="5" size="25" />
+       <input type="text" placeholder="Enter Your name" required name="name"  size="25" minlength="5" size="25" pattern="[a-zA-Z]+ [a-zA-Z]+" />
        <br>
        <br>
-       <input type="text" placeholder="Enter Your Gurdian name" required name="g-name" size="25" />
+        <input type="text" placeholder="Enter Your Gurdian name" required name="g-name" size="25" pattern="[a-zA-Z]+ [a-zA-Z]+" />
        <br>
        <br>
-       <input type="date" min="1990-01-01" max="2050-12-31" required name="birth-date"  style="width: 210px;"  />
+       <input type="date"  min="1990-01-01" max="2050-12-31" required name="birth-date"  style="width: 210px;"  />
        <br>
        <br>
        <input type="text" placeholder="Enter Your Gender" required name="gender-name" size="25" />
@@ -65,13 +65,10 @@
        <br>
        <input type="password" name="pwd" placeholder=""  minlength="7" required />
        <input type="password" name="con-pwd" placeholder=""  minlength="7" required />
-
-
+       <br> 
        <br>
-       <br>
-
        <input type="submit"/>
-       <input type="reset"/>
+       <input type="reset"/> 
 
 
        
