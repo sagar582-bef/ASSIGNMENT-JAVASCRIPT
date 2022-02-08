@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+  text-align: center;
+}
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <form>
+<input type="text" placeholder="Enter Your name" required name="name"  size="25" minlength="5" size="25" />
+       <br>
+       <br>
+       <input type="text" placeholder="Enter Your Gurdian name" required name="g-name" size="25" />
+       <br>
+       <br>
+       <input type="date" min="1990-01-01" max="2050-12-31" required name="birth-date"  style="width: 210px;"  />
+       <br>
+       <br>
+       <input type="text" placeholder="Enter Your Gender" required name="gender-name" size="25" />
+       <br>
+       <br>
+       <input type="email" placeholder="Enter Your Email" required name="em" size="25" />
+       <br> 
+       <br>
+       <input type="tel" placeholder="Enter phone number" size="25" required  name="phone" pattern="[9|8|7|6]{1}[0-9]{5}[0-9]{4}" minlength="10" maxlength="10">
+       <br>
+       <br>
+       <input type="text" placeholder="Enter Your Specalization" required name="s-name" size="25" />
+       <br>
+       <br> 
+       <input type="text" placeholder="Enter Your pan no" name="pan-no" minlength="10" maxlength="10" required   pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" size="25" />
+        <br>
+        <br>
+       <span style="color: brown; padding-right: 30px;">Enter SSC marks</span>
+       <span style="color: red; padding-left: 40px;">Enter Intermediate marks</span>
+       <br>
+       <br>
+       <input type="number" placeholder="Enter SSC Mark" required name="s-marks"  />
+       <input type="number" placeholder="Enter HS Mark" required name="h-marks"  />
+       <br>
+       <br>
+       <span style="color: brown; padding-right: 0px;">Enter SSC pass out year</span>
+       <span style="color: red; padding-left: 10px;">Enter Intermediate pass out year</span>
+       <br>
+       <br>
+       <input type="date" min="2009-01-01" max="2020-12-31" required name="s-pass-out-year" style="width: 160px;" />
+       <input type="date" min="2009-01-01" max="2020-12-31" required name="hs-pass-out-year" style="width: 160px;"  />
+       <br>
+       <br>
+       <input type="text" placeholder="Enter Your Address" required name="address" size="39" minlength="15" />
+       <br>
+       <br>
+       <textarea required name="about" rows="3" cols="40" minlength="25" maxlength="100"  placeholder="Write about Yourself" style="resize: none;"></textarea>
+       <br>
+       <br> 
+       <span style="color: brown; padding-right: 0px;">Create your password</span>
+       <span style="color: red; padding-left: 40px;">Re-enter your password</span>
+       <br>
+       <br>
+       <input type="password" name="pwd" placeholder=""  minlength="7" required />
+       <input type="password" name="con-pwd" placeholder=""  minlength="7" required />
+
+
+       <br>
+       <br>
+
+       <input type="submit"/>
+       <input type="reset"/>
+
+
+       
+
+
+
+
+    </form>
+    
+</body>
+</html>
