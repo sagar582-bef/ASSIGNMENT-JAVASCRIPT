@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+            margin-top: 150px;
+        }
+    </style>
+
+</head>
+<body>
+    <form>
+    
+        <span>Full Name*</span>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;
+        <span>Email*</span>
+        <br>
+
+        
+        <input  type="text" required placeholder="Enter your name"  name="name"  pattern="[a-zA-Z]+ [a-zA-Z]+" style="height: 35px; width: 300px;" />
+        &emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; 
+        <input  type="email" required name="em"  placeholder="enter your email"  style="height: 35px; width: 300px;"/>
+        <br>
+        <br>
+        <span>Phone*</span>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
+        <span>Highest Degree*</span>
+        <br>
+        <input type="tel" required  placeholder="Enter mobile no" name="phone"  pattern="[9|8|7|6]{1}[0-9]{5}[0-9]{4}" minlength="10" maxlength="10" style="height: 35px; width: 300px;"/>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp;
+        <select name="degree" required style="height: 35px; width: 300px;">
+            <option selected disabled value="1">Select highest degree</option>
+            <option value="2">PG</option>
+            <option value="3">BSC</option>
+            <option value="4">BCA</option>
+            <option value="5">MSC</option>
+            <option value="6">MCA</option>
+            <option value="7">MSC</option>
+            <option value="8">MS</option>
+            <option value="9">B.E/BTECH</option>
+        </select>
+        <br>
+        <br>
+        <span>Year of completion*</span>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;
+        <span>Programming Skills*</span>
+        <br>
+        <select name="year" required style="height: 35px; width: 300px;">
+            <option selected disabled value="1">Select pass out year</option>
+            <option value="2">2019</option>
+            <option value="3">2020</option>
+            <option value="4">2021</option>
+            <option value="5">2022</option>
+            <option value="6">2023</option>
+             
+        </select>
+        &emsp; &emsp; &emsp;&emsp; &emsp; &emsp;&emsp;&emsp; 
+        <select name="skill" required style="height: 35px; width: 300px;">
+            <option selected disabled value="1">Select Programming Skills</option>
+            <option value="2">No coding skill </option>
+            <option value="3">Basic coding skill</option>
+            <option value="4">Intermediate coding skill</option>
+            <option value="5">Good coding skill</option>
+            
+        </select>
+        <br>
+        <br>
+        <br>
+        <input type="checkbox" required/>By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*.
+        <br>
+        <br>
+        <input type="submit"  size="100" style="color: white;background-color:green;border-radius: 10%; height: 35px;width: 80px; "/>
+         
+
+        
+
+
+
+    </form>
+    
+</body>
+</html>
