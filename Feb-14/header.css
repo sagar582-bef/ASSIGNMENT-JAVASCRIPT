@@ -16,6 +16,12 @@
     padding: 10px 15px 10px 15px;
     
 }
+.btn:hover{
+    background-color: red;
+}
+.btn:active{
+    background-color: green;
+}
 .fa{
     font-size: 550%;
 }
