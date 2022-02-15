@@ -1,8 +1,11 @@
 var r=prompt("size of array");
 var arr = [];
+var num=+prompt("please enter a number");
 for(var i=0;i<r;i++){
    // arr[i]=new Array(r);
-arr[i]= prompt("Enter random number");
+arr[i]= +prompt("Enter random number");
+
+
 }
 console.log(arr[i]);
 var max=arr[0];

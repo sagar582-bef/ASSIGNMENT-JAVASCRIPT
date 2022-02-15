@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Youtube</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			font-family: sans-serif;
+		}
+		nav{
+			display: flex;
+			height: 60px;
+			width: 100%;
+			border-bottom: 1px solid whitesmoke;
+			
+		}
+		.logo i{
+			margin-left: 30px;
+			font-size: 20px;
+		}
+		img{
+			width: 100px;
+			height: 25px;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		input{
+			box-shadow: 90px 0 90px 0 whitesmoke;
+			margin-left: 150px;
+			width: 530px;
+			height: 30px;
+			padding: 5px;
+			border-right: none;
+            font-size: 15px;
+            font-weight: bold;
+			border: 1px solid whitesmoke;
+			margin-top: 10px;
+		}
+		.search{
+			border: 1px solid whitesmoke;
+			height: 43px;
+			width: 70px;
+			font-size: 20px;
+			margin-left: 0px;
+			padding-bottom: 3px;
+			border-left: none;
+			background: whitesmoke;
+
+        }
+        button{
+        	cursor: pointer;
+        }
+        .button{
+        	margin-left: 30px;
+        	padding: 7px;
+        	font-size: 20px;
+        	border: none; 
+        	background: white;
+        }
+        .mic{
+        	padding: 10px 15px 10px 15px;
+        	border: none;
+        	margin-left: 15px;
+        	border-radius: 50%;
+            font-size: 20px;
+            background: whitesmoke;
+        }
+        .category button{
+        	border: none;
+        	margin-left: 15px;
+        	padding: 10px 15px 10px 15px;
+        	font-size: 55px;
+        	border-radius: 20px;
+
+        }
+        .category{
+        	height: 50px;
+        	margin-left: 40px;
+        	margin-top: 10px;
+        	border-bottom: 1px solid whitesmoke;
+        }
+        .category i{
+        	font-size: 25px;
+        	margin-left: 30px;
+        	cursor: pointer;
+        }
+        .main-div button{
+        	position: absolute;
+        	padding: 5px;
+        	border-radius: 50%;
+        	border: none;
+        	font-size: 30px;
+        }
+        .main-div P{
+        	width: 210px;
+        	margin-left: 50px;
+
+        }
+        .channel-name{
+        	margin-left: 50px;
+        	text-decoration: none;
+        	color: gray;
+        	margin-top: 10px;
+        	font-size: 13px;
+
+        }
+        .video{
+        	width: 25%;
+        	border-radius: 10px;
+        	margin-left: 30px;
+        	margin-top: 20px;
+        }
+        .main-div{
+        	display: flex;
+        	
+        }
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<i class="fa-solid fa-bars"></i>
+			<img src="./youtube.png"/>
+		</div>
+		<div class="input">
+			<input type="text" placeholder="Search" name="text"><button class="search"><i class="fa-solid fa-magnifying-glass"></i></button> <button class="mic"><i class="fa-solid fa-microphone"></i></button>
+			<button class="button" style="margin-left: 80px;"><i class="fa-solid fa-microphone"></i></button> <button class="button"><i class="fa-solid fa-bars"></i></button> <button class="button"><i class="fa-solid fa-bell"></i></button> <button class="button" style=" border-radius: 50%; padding: 0 5px 0 5px 0;
+			background: whitesmoke;"><i class="fa-solid fa-user"></i></button>
+		</div>
+	</nav>
+	<div class="category">
+		<i class="fa-solid fa-angle-left" style="margin-right: 20px;"></i> <button>All</button> <button>Music</button> <button>Live</button> <button>Mixes</button> <button>Javascript</button> <button>Computer Programming</button> <button>Motivation</button> <button>Comedy</button> <button>Cretive</button> <button>Course</button> <button>Editing</button> <i class="fa-solid fa-angle-right"></i>
+	</div>
+   <div class="main-div">
+   	<div class="video">
+   		<video width="270px" poster="./coder1.jpg" controls>
+   			<source src="" type="video/mp4">
+   		</video>
+   		<br>
+   		<button><a href=""><i class="fa-solid fa-user"></i></a></button>
+   		<p style="font-weight: bold; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+   		<a class="channel-name" href="">Channel name ✔</a>
+   		<p style="color: gray; font-size: 13px;">145k ' 17 hourse ago</p>
+   	</div>
+
+   		<div class="video">
+   		<video width="270px" poster="./coder2.jpg" controls>
+   			<source src="" type="video/mp4">
+   		</video>
+   		<br>
+   		<button><a href=""><i class="fa-solid fa-user"></i></a></button>
+   		<p style="font-weight: bold; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+   		<a class="channel-name" href="">Channel name ✔</a>
+   		<p style="color: gray; font-size: 13px;">145k ' 17 hourse ago</p>
+   	</div>
+
+   		<div class="video">
+   		<video width="270px" poster="./coder3.jpg" controls>
+   			<source src="" type="video/mp4">
+   		</video>
+   		<br>
+   		<button><a href=""><i class="fa-solid fa-user"></i></a></button>
+   		<p style="font-weight: bold; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+   		<a class="channel-name" href="">Channel name ✔</a>
+   		<p style="color: gray; font-size: 13px;">145k ' 17 hourse ago</p>
+   	</div>
+
+   	<div class="video">
+   		<video width="270px" poster="coder4.jpg" controls>
+   			<source src="" type="video/mp4">
+   		</video>
+   		<br>
+   		<button><a href=""><i class="fa-solid fa-user"></i></a></button>
+   		<p style="font-weight: bold; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+   		<a class="channel-name" href="">Channel name ✔</a>
+   		<p style="color: gray; font-size: 13px;">145k ' 17 hourse ago</p>
+   	</div>
+
+   </div>
+
+</body>
+</html>
