@@ -69,33 +69,71 @@ const person={
 // myFun1(1,2,3,4,5,6,7,8,9,0);
 
 // Deag=fault parameter
-var myFun1=(a,b=0)=>{
-    let result=a+b;
-    console.log(result);
-}
-myFun1(100,200);
-myFun1(100);
+// var myFun1=(a,b=0)=>{
+//     let result=a+b;
+//     console.log(result);
+// }
+// myFun1(100,200);
+// myFun1(100);
 
 
 
 //big functio how is it work
-var fun1=()=>{
-     function fun2(){
-        console.log("hii i am first function");
-    }
-    function fun3(){
-        console.log("hii i am second function");
-        fun4();
+// var fun1=()=>{
+//      function fun2(){
+//         console.log("hii i am first function");
+//     }
+//     function fun3(){
+//         console.log("hii i am second function");
+//         fun4();
 
-    }
-    function fun4(){
-        console.log("hii i am third function") ;
-        fun2();
-    }
-    fun3();
+//     }
+//     function fun4(){
+//         console.log("hii i am third function") ;
+//         fun2();
+//     }
+//     fun3();
 
-    console.log("hii i am outside the function");
+//     console.log("hii i am outside the function");
 
-}
-fun1();
+// }
+// fun1();
+// const student=[
+//     {name:"sagar",age:22,course:"btech"},
+//     {name:"mohit",age:23,course:"be"},
+//     {name:"rohit",age:21,course:"pg"},
+// ]
+// student.forEach((value)=>{
+//     console.log(value.name);
+// }
+
+//)
+//console.log(result);
+// for(let value of student){
+//     console.log(`${value.course} and ${value.name}`);
+// }
+// let result=student.map((value,index)=>{
+//     return `${value.age} index is${index}`;
+
+// })
+// console.log(result);
+const product=[
+      {id:1, name:"mobile",price:1000},
+    {id:2, name:"laptop",price:1200},
+    {id:3, name:"mobile",price:900},
+]
+let result= product.sort((a,b)=>{
+    return a.price -  b.price;
+})
+console.log(result);
+let result2=[...product].sort((c,d)=>{
+    return c.price - d.price;
+})
+console.log(result2);
+
+//  let result= product.reduce((totalPrice,currentValue)=>{
+//     return totalPrice + currentValue.price;
+
+// },0)
+// console.log(`your total amount is${result}`);
  
