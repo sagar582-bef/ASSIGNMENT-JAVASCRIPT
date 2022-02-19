@@ -1,0 +1,21 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+tr:nth-child(n+1){
+    color: teal;
+}
+tr:nth-child(3n){
+    color: red;
+}
+tr:nth-child(3n-2){
+    color:purple;
+}
+.table-head-style{
+    color: wheat;
+    background-color: blue;
+}
