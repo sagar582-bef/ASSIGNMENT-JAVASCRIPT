@@ -1,0 +1,132 @@
+body{
+     background-color:blue;
+    margin: 0px;
+}
+.first-container{
+    background-color: aquamarine;
+    margin: 8px 12px 1px;
+    text-align: center;
+}
+.padding-around{
+    padding: 6px 20px;
+    font-size: 120%;
+}
+.second-container{
+    background-color: yellow;
+    margin: 0px 120px 1px;
+    text-align: center;
+}
+.third-container{
+    background-color: yellow;
+    margin: 0px 50px 1px;
+    text-align: center;
+}
+.main-container{
+    text-align: center;
+    background-color: rgb(194, 154, 194);
+    margin: 0px 20px 20px;
+   
+    
+    
+
+}
+.sub-container1{
+    background-color: yellow;
+  margin: auto;
+    width: 15%;
+}
+.sub-container2{
+    margin: 0px 30px 10px;
+    background-color: lightgreen;
+}
+.sub-sub-container1{
+    background-color: rgb(243, 243, 92);
+    margin: 0px 20px;
+}
+.sub-sub-sub-contaier{
+    background-color: yellow;
+    width: 20%;
+    margin: auto;
+}
+.sub-sub-sub-continer{
+    background-color: yellow;
+    width: 22%;
+    margin: auto;
+}
+/* .sub-sub-container2{
+    height: 200px;
+    width: 95%;
+    background-color: red;
+    margin: 1px 20px 5px;
+    display: block;
+} */
+.sub-sub-container2{
+    background-color: rgb(241, 190, 241);
+    margin: 0px 20px;
+}
+.sub-sub-sub-contaier2{
+    width: 20%;
+    margin: auto;
+    background-color: yellow;
+}
+.sub-sub-container3{
+    background-color: whitesmoke;
+    margin: 0px 20px;
+    border: 1px solid grey;
+}
+.sub-sub-sub-contaier3{
+    width: 20%;
+    margin: auto;
+    background-color: yellow;
+}
+
+
+
+
+
+/* .special-container{
+    background-color: yellow;
+    height: 150px ;
+    /* width: 90%; */
+    /* margin: 5px 50px;
+    display: flex; */
+     /* display: flex;
+    justify-content: space-between;  */
+
+.float-left{
+    /* float: left; */
+    /* display: inline-block; */
+    height: 80px;
+    width: 300px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 80px
+}
+.float-right{
+    /* display: inline-block; */
+  
+    height: 80px;
+    width: 300px;
+    background-color: white;
+    margin-right: 90px;
+    margin-bottom: 80px
+  ;
+    /* margin-right: 100px;
+   padding-bottom: 30px; */
+} */
+.last-contain{
+    display: inline-block;
+    
+}
+.last-contain1{
+    display: inline-block;
+    width: 300px;
+    margin-left: 30%;
+    background-color: yellow;
+}
+.last-contain2{
+    display: inline-block;
+    width: 300px;
+    margin-left: 1%;
+    background-color: yellow;
+}
