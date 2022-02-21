@@ -10,8 +10,8 @@ main{
     grid-template-columns: repeat( 3,1fr) 150px; 
     /* grid-template-columns: repeat(autofit,min max(150px,1fr)) 100px; */
     grid-gap: 12px;
-    border: 1px solid black;
-    justify-content: center;
+    /* border: 1px solid black; */
+    /* justify-content: center; */
     }
 .container1{
     background-color: red;
