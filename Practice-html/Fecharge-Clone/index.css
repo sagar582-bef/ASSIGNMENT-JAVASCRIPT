@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+}
+ .header-main-container{
+     height: 70px;
+     width: 100%;
+  border-bottom: 3px solid whitesmoke;
+   
+} 
+.header-left-container{
+    height: 100px;
+    width: 140px;
+     float: left; 
+    
+}
+.header-right-container{
+   
+    /* float: right; */
+     display: flex; 
+    align-items: center;
+    margin: 15px 45px;
+   
+}
+.header-logo-img{
+    width: 100%;
+    padding: 5px 30px;
+}
+.header-profile-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   
+}
+.section-main-container{
+    width: 100%;
+    display: flex;
+}
+.left-container{
+    display: inline-block;
+  width:20%;
+  
+  height: 200px;
+}
+.right-container{
+    display: inline-block;
+width: 80%;
+/* background-color: blue; */
+height: auto;
+}
+.left-container ul li img{
+    height: 20px;
+    width: 20px;
+}
+.left-container ul li{
+ padding: 20px 12px;
+ list-style: none;
+}
+.left-container ul li span{
+    padding-left: 15px;
+    color: grey;
+}
+/* .orange-text{
+    color: orange;
+} */
+/* .li-img{
+    height: 20px;
+    width: 20px;
+} */
+/* .space-text{
+    padding-left: 20px;
+} */
+/* .left-sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+} */
+/* .left-sub-container  div {
+    float: left;
+} */
+/* .left-sub-container img{
+    height: 20px;
+    width: 20px;
+} */
+.right-container button{
+border-radius: 20%;  
+margin-left: 16px; 
+border: 1px solid whitesmoke;
+box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+background-color: whitesmoke;
+
+}
+.right-container img{
+    /* height: 20px; */
+    width: 20px;
+    padding: 9px;
+}
+.right-container P{
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 80%;
+}
+.right-container h6{
+color: red;
+margin-top: -10px;
+margin-left: 8px;
+}
+.right-container div {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.card-container{
+    height: 170px;
+    width: 270px;
+   background-color: lightcoral;
+   border-radius: 7%;
+   margin-bottom: 20px;
+   box-shadow: 5px 5px 2px 0 gray;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+   
+  /* box-sizing: border-box; */
+}
+.card-container img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /* margin-top: -10px; */
+    margin-left: -20px;
+    
+}
+
+.white-text{
+    color: white;
+    font-weight: bold;
+  
+}
+/* .close{
+   margin-bottom: 100px;
+} */
+.btn-custom{
+  /* height: 30px;
+  width: 120px; */
+    margin-left: 12px;
+    padding: 8px 40px;
+    background-color: white;
+    border-radius: 40%;
+}

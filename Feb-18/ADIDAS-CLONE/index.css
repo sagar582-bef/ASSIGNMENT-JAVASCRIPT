@@ -70,3 +70,52 @@ body{
 .nav-bar{
     border-bottom: 1px solid grey;
 }
+section{
+    padding-left: 140px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.category-title > h1{
+    display: inline;
+    font-size: 200%;
+    font-style: italic;
+}
+.category-title{
+    margin-top: 10px;
+}
+.category-title > button{
+    float: right;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    
+}
+.category-title > button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 105%;
+}
+.product-container{
+    display: flex;
+    
+}
+.product-container > div{
+ width: 300px;
+ height: 370px;
+ 
+}
+.product-container > div > div {
+    background-image: url('https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/d308de9fe1f44dce8145a6aa00ca5b56_9366/vs-pace-shoes.jpg');
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    cursor: pointer;
+}
+.product-container > div:hover >div {
+    background-image: url('https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/7062a3d2b76944409923a6aa00ca68c9_9366/vs-pace-shoes.jpg');
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    cursor: pointer;
+}
