@@ -1,0 +1,41 @@
+body{
+    /* background-image: url("https://t4.ftcdn.net/jpg/01/92/93/41/240_F_192934197_A6sTtiYTUwpYiusWQy1qfy3jmxMuHWiI.jpg");
+   background-size: cover; */
+   background: linear-gradient( #9BBC04,#C7F00C,#74F00C,#03F406 ) fixed;
+}
+
+main{
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-template-rows: repeat(4,minmax(100px,1fr));
+    grid-template-columns: repeat(4,minmax(170px,1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    grid-column: 170px;
+}
+ main > div {
+     background-color: aqua;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ a{
+ text-decoration: none;
+ font-weight: bold;
+ color: white;
+ font-size: 130%;
+ }
+ a:hover{
+   font-size: 170%;
+   color: red;
+   font-style: italic;
+ }
+ .first{
+     grid-column: 1/-1;
+    background-image: linear-gradient(to bottom right,#398AB9,#00B4D8,#2fc1db,#90E0EF);
+ }
+ .last-container{
+     grid-column: 1/-1;
+ }
