@@ -119,3 +119,13 @@ section{
     background-size: cover;
     cursor: pointer;
 }
+.position-bottom{
+    position: relative;
+    top: 230px;
+}
+.position-bottom p{
+    padding: 5px;
+    margin-left: 10px;
+    display: inline;
+    background-color: white;
+}
