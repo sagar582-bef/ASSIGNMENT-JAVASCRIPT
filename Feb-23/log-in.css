@@ -22,6 +22,7 @@ body{
     height: 300px;
     width: 80%;
     text-align: center;
+    box-shadow: 5px 5px 8px gray;
 }
 .section h2{
     color: white;
