@@ -1,0 +1,13 @@
+body{
+    /* background-color: blue; */
+}
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    /* border: 1px solid white; */
+   color: white;
+   padding: 30px 60px;
+   box-shadow: 10px 5px 50px rgba(0,0,0,1.5);
+   transform: translate(-50%,-50%);
+}

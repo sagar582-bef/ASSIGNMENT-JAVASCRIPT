@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+}
+
+
+header{
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 100%;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+    
+}
+img{
+     margin: 3px 15px; 
+    height: 50px;
+    width: 50px;
+   color: blue;
+   vertical-align: middle;
+}
+.header-container{
+  /* display: inline-block; */
+  width: 100%;
+
+}
+.right{
+    position: absolute;
+    right: 20px;
+}
+.right1{
+    position: absolute;
+    right: 130px;
+}
+.right2{
+    position: absolute;
+    right: 250px;
+}
+.header-container > span {
+    font-size: 120%;
+    font-weight: bold;
+    margin-left: 20%;
+   
+ 
+}
+section{
+   
+    margin: 20px 20px;
+    display: block;
+}
+.right-float{
+    float: right;  
+}
+.right-float > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.left-float{
+    float: left; 
+   
+}
+.left-float > a{
+    text-decoration: none;
+    color: rgb(14, 12, 12);
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+footer{
+    border-top: 1px solid grey;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: green;
+ background-color: whitesmoke; 
+}
+.inline{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.f-img{
+    height: 50px;
+    width: 50px;
+  padding-right: 30px;
+    margin-top: 10px;
+}
+.search-bar{
+    border: 1px solid grey;
+    background-color: white;
+    padding: 8px;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: inline-block;
+   
+}
+button{
+    border-color: transparent;
+    background-color: transparent;
+}
+input{
+    border-color: transparent;
+    width: 350px;
+}
+.f-last-img{
+    height: 50px;
+    width: 50px;
+  
+    /* margin-top: 10px; */
+}
+.padding{
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
