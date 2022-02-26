@@ -1,67 +1,56 @@
 body{
     margin: 0px;
 }
-.main-container{
-    background-color: teal;
-    /* height: 70px; */
-    width: 100%;
+.trigger > ul > li{
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    /* z-index: 100; */
 }
-.main-container > ul{
-    display: inline-flex;
-    list-style: none;
-}
-.main-container > ul > li{
-    /* display: inline-block; */
-    width: 150px;
-    /* padding-left: 200px; */
-  
-}
-.sub-menu-item{
-     
-      background-color: red;
+.first{
+    display: inline-block;
     
 }
-.check{
+.sub-menu{
     display: none;
+   
 }
-/* .main-container  ul  li:hover .sub-menu-item
-{
-    display: block;
-    background-color: rebeccapurple;
-    position: absolute;
-} */
-.sub-menu-item:hover > .check
-{
-    display: block;
-    position: absolute;
+.sub-menu > ul > li {
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgb(179, 109, 24);
+   
 }
-.last{
-    display: none;
+a{
+    text-decoration: none;
 }
-.check-last:hover > .last{
-    display: block;
-
+li{
+    list-style: none;
 }
-.check-last:hover > .last > ul{
-    display: block;
-    padding: 5px;
-    border-bottom: 1px solid black;
-    background-color: red;
-
-
-}
-.check-last:hover > .last > li{
-    display: block;
-    padding: 5px;
-    border-bottom: 1px solid black;
-    background-color: red;
-
-
-}
-.check-last:hover > .last > ul{
+.sub-menu > ul {
     display: block;
     position: absolute;
- margin-top: -30px;
- margin-left: 50px; 
- list-style: none;   
+   
+}
+  .try:hover > .sub-menu{
+    display: initial;
+}
+.sub-menu2{
+   display: none;
+   background-color: lightcoral;
+   margin-top: 8px;
+   margin-left: 30px;
+}
+.sub-menu2 > ul > li {
+    display: block;
+    margin-left: -30px;
+    margin-top: 5px;
+    border-bottom: 1px solid white;
+    
+}
+.second:hover > .sub-menu2{
+    display: initial;
+    position: absolute;
 }
