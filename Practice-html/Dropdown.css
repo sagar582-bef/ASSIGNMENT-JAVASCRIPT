@@ -1,6 +1,10 @@
 body{
     margin: 0px;
 }
+.trigger{
+    width: 100%;
+    background-color: aqua;
+}
 .trigger > ul > li{
     display: inline-block;
     width: 200px;
@@ -53,4 +57,11 @@ li{
 .second:hover > .sub-menu2{
     display: initial;
     position: absolute;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 12px 1px rgb(102, 97, 97);
+    margin-left: 50px;
+    margin-top: 50px;
 }
