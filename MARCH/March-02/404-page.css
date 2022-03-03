@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.card{
+    height: 80vh;
+    width: 80vw;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border-radius: 4%;
+  box-shadow: 0 0 4px 2px lightgrey;
+}
+header{
+    padding-top: 20px;
+}
+
+
+.material-icons{
+    color: red;
+    vertical-align: middle;
+    font-size: 300%;
+ 
+}
+.right{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.right > span {
+    padding-right: 40px;
+}
+.left{
+    float: left;
+    margin-left: 40px;
+}
+.right > a {
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    background-color: rgb(54, 184, 76);
+    border-radius: 10px;
+    font-family: monospace;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+
+}
+.image{
+
+     background-image: url("https://lukaszadam.com/waitng-illustration.svg");
+     height: 90%;
+     width: 45%;
+     background-repeat: no-repeat;
+     background-size: contain;
+     margin-left: 10%;
+     
+
+  /* Center and scale the image nicely */
+   /* background-position: center;
+  background-repeat: no-repeat; */
+  /* background-size: cover;  */
+}
+.image:hover {
+    background-image: url("https://www.reshot.com/preview-assets/illustrations/KBG392DTQW/empty-website-page-KBG392DTQW-w600.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90%;
+    width: 45%;
+   
+}
+
+.text-large{
+    margin-top: 12%;
+    font-family: sans-serif;
+    font-size: 200%;
+}
+.text-medium{
+    font-family: sans-serif;
+    font-size: 130%;
+    color: lightcoral;
+    margin-top: -30px;
+}
+.content{
+    /* background-color: aqua; */
+    width: 45%;
+    height: 80%;
+    margin-left: -5%;
+
+}
+.text-last{
+    font-family: sans-serif;
+    font-size: 105%;
+}
+/* .content > img{
+    width: 45%;
+    height: 220px;
+    margin-left: -10%;
+    margin-right: 10%;
+} */
+
+.second{
+    background-image: url("./404s.png");
+    width: 41%;
+    height: 220px;
+    
+    background-size: contain;  
+    display: inline-block;
+    margin-top: 5%;
+  
+
+}
+.first{
+    background-image: url("https://ouch-cdn2.icons8.com/sJEdgju-lFixakdkXn8cey_FEIIXEEc5GUO4xqGYSxk/rs:fit:256:192/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvOTk2/L2IzODU2N2YyLTZj/NWUtNGQ5YS04OTQy/LWI2ZWQzOTM2OGNi/YS5zdmc.png");
+    width: 45%;
+    height: 220px;
+    
+    background-size: contain; 
+    display: inline-block; 
+    background-repeat: no-repeat;
+    margin-right: 10%;
+    margin-top: 5%;
+
+}
+.second:hover{
+    background-image: url("./new.png");
+    background-size: contain;
+   
+}
+.first:hover{
+    background-image: url("./l.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.italic{
+    font-size: 120%;
+    font-style: italic;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
