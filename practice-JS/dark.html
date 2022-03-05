@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <link rel="stylesheet" href="./dark.css"/>
+</head>
+<body class="dark_theme">
+      <button onclick="dark_mode();">Click me</button>
+      <br>
+      <h2 id="op">hii</h2>
+      <button id="button-color" class="white" onclick="like_dislike()">Like</button>
+      
+    <script>
+        function dark_mode(){
+            var body=document.body;
+            if(body.classList.contains("dark_theme")){
+                body.classList.remove("dark_theme");
+                body.classList.add("show_light_mode");
+            }
+            else{
+                body.classList.remove("show_light_mode");
+                body.classList.add("dark_theme");
+            }
+            // body.classList.remove("dark_theme")
+            // body.classList.add("show_light_mode");
+        }
+        var counter=199;
+        var liked = false;
+        function like_dislike(){
+            if(liked == false){
+                counter +=1;
+                var display=document.getElementById("op");
+                
+                display.innerText=counter;
+                document.getElementById("button-color").classList.replace("white","red");
+                
+                liked=true;
+            }
+            else{
+                counter -=1;
+                var display=document.getElementById("op");
+                display.innerText=counter;
+                document.getElementById("button-color").classList.replace("red","white");
+            }
+        }
+    </script>
+    
+</body>
+</html>

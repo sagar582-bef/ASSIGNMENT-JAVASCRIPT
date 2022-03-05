@@ -7,6 +7,7 @@
     border: 1px solid whitesmoke;
     box-shadow: 0px 4px 8px 5px grey;
 }
+
 img{
     height: 60px;
     width: 60px;
@@ -55,6 +56,26 @@ img{
     }
     100%{
         transform: translateY(40px);
+    }
+    
+}
+
+/* bellow css for create running text */
+
+h1{
+ color: lightcoral;
+ animation-name: text-run;
+ animation-duration: 5s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ height: 100px;
+}
+@keyframes text-run {
+    0%{
+       transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
     }
     
 }
