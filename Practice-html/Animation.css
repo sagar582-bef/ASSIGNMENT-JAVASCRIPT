@@ -28,7 +28,10 @@ img{
     animation-iteration-count: infinite;
     animation-fill-mode: both;  */
 }
-@keyframes sagar {
+
+/* x axis animation */
+
+@keyframes sagar {          
     0%{
         transform: translateX(120px);
 
@@ -47,6 +50,9 @@ img{
     }
  
 }
+
+/* Y axis animation */
+
 @keyframes JUMP {
     0%{
         transform: translateY(0px);
