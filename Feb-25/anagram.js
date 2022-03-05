@@ -12,32 +12,7 @@ function checkAnagram(str1,str2){
              else{
                 return document.write("FALSE");  
              }
-
-
-
-            //   for(let i=0;i<len1;i++){
-            //       if(str1[i] != str2[i]){
-            //           return document.write("FALSE");
-            //       }
-            //       return document.write("TRUE");
-            //   }
 }
 var str1 = prompt("please enter first a string");
 var str2 = prompt("please enter second string");
 checkAnagram(str1,str2);
-// function checkStringsAnagram(a, b) {
-//     let len1 = a.length;
-//     let len2 = b.length;
-//     if(len1 !== len2){
-//        console.log('Invalid Input');
-//        return
-//     }
-//     let str1 = a.split('').sort().join('');
-//     let str2 = b.split('').sort().join('');
-//     if(str1 === str2){
-//        console.log("True");
-//     } else { 
-//        console.log("False");
-//     }
-//  }
-//  checkStringsAnagram("indian","ndiani")
