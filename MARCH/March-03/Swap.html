@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swap value</title>
+    <style>
+      .container{
+          text-align: center;
+      }
+      button{
+          background-color: lightcoral;
+          color: whitesmoke;
+      }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <h1>Swap Programm</h1>
+        <h2 id="op_text"></h2>
+        <input id="first_value" type="number" placeholder="give first value" required minlength="1" />
+        <input id="second_value" type="number" placeholder="give 2nd value" required minlength="1" />
+        <br>
+        <br>
+        <button onclick="swap_value()">Swap Value</button>
+    </div>
+    <script>
+          function swap_value(){
+       // var x=document.getElementById("first_value").value + document.getElementById("second_value").value;
+        var y= +document.getElementById("second_value").value;
+        var x= +document.getElementById("first_value").value ;
+        x=x + y;
+        y=x - y;
+        x=x - y;
+        document.getElementById("op_text").innerText = `the first value is ${x} , the second value is ${y}`;
+
+          }
+    </script>
+    
+</body>
+</html>
