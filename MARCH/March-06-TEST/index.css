@@ -3,6 +3,9 @@ body{
     background: rgb(100,94,204);
     background: linear-gradient(90deg, rgba(100,94,204,1) 0%, rgba(237,241,71,0.9360119047619048) 57%, rgba(0,212,255,1) 100%, rgba(7,141,124,1) 100%);
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
 }
 #preloader{
     position: fixed;
