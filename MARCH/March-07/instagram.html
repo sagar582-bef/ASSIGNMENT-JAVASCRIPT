@@ -13,16 +13,16 @@
 <body>
     <div class="mobile-container">
         <div class="bottom">
-            <span class="material-icons deafult" >
+            <span class="material-icons deafult" onclick="showDisplay('home')" id="hom" >
                 home
                 </span>
-                <span class="material-icons white-text">
+                <span class="material-icons white-text" onclick="showDisplay('search')" id="sa">
                     search
                     </span>
-                    <span class="material-icons white-text">
+                    <span class="material-icons white-text" onclick="showDisplay('message')" id="chat">
                         chat
                         </span>
-                        <span class="material-icons white-text">
+                        <span class="material-icons white-text" onclick="showDisplay('profile')" id="person">
                             person_outline
                             </span>  
                         </div>
@@ -66,7 +66,7 @@
 
 
         </nav>
-
+<!-- PHOTO POST  -->
          <section id="home" class="left-equal-padding show">
             <div class="photo-post-container">
                 <div class="inline-block">
@@ -259,7 +259,7 @@
         </section> 
        
 
-
+<script src="./instagram.js"></script>
     </div>
 
 </body>
