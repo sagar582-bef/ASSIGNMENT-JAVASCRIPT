@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    height: 30vh;
+    width: 30vw;
+    border-radius: 3%;
+    border: 1px solid lightcoral;
+    text-align: center;
+    margin-top: 10%;
+}
+#minute-text{
+    color: red;
+    font-size: 40px;
+    font-family: cursive;
+}
+#second_text{
+    color: green;
+    font-size: 30px;
+    font-family: cursive;
+}
+button:active{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}

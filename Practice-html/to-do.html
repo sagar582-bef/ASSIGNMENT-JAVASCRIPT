@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .custom{
+            border: 1px solid black;
+             width: 31%; 
+            height: 10%;
+        }
+        .custom > textarea{
+            border-color: transparent;
+            outline: transparent;
+       
+           
+           
+        }
+        .custom > button{
+          
+            margin-bottom: 8px; 
+            border-color: transparent;
+            border-left-color: brown;
+            background-color: transparent;
+            font-size: 60px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+     <input  type="text"  id="ip" placeholder="Give Your task tittle" />
+     <button  id="btn">add</button>
+     <br>
+     <br>
+    
+     <div class="custom">
+     <textarea id="story" placeholder="write about your task details" cols="40" ></textarea>
+     <button id="story_add" >&#8594</button>
+    </div>
+     <br>
+     <br>
+     <ul id="parent">
+         
+     </ul>
+     <br>
+     <ul id="parent-id"></ul>
+     <script>
+         const task=[];
+          const valueAdd= function(){
+              const ip_value=document.getElementById("ip");
+              ip_value.value;
+              task.push(ip_value.value);
+              ip_value.value="";
+               display();
+      
+              
+          }
+          function display(){
+                   const op=document.getElementById("parent");
+                   op.innerHTML='';
+                   for(let i=0;i<task.length;i++){
+                       const item=document.createElement('li');
+                       item.innerText=task[i];
+                       item.style.listStyle="none";
+                       item.style.color="red";
+                       item.style.textAlign="center";
+                       op.appendChild(item);
+
+                   }
+               }
+
+          document.getElementById("btn").addEventListener('click',valueAdd);
+          const task_details=[];
+           const story_show= function(){
+               const story_op=document.getElementById("story");
+               story_op.value;
+              
+               task_details.push(story_op.value);
+               story_op.value="";
+               story_display();
+           }
+           function story_display(){
+               const story_text=document.getElementById("parent-id");
+               story_text.innerHTML='';
+               for(let i=0;task_details.length>i;i++){
+                   const story_output=document.createElement("li");
+                   story_output.innerText=task_details[i];
+                   story_output.style.listStyle="none";
+                   story_output.style.color="green"
+                   story_text.appendChild(story_output);
+                   ;
+               }
+
+           }
+           document.getElementById("story_add").addEventListener('click',story_show);
+     </script>
+</body>
+</html>
