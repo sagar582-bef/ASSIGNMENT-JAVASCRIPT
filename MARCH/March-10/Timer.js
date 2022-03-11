@@ -12,6 +12,7 @@ const showTimerSecond = function () {
     total = total - 1;
     if (m == 0 && s == 0) {
         clearInterval(second);
+        document.getElementById("message").style.display = "initial";
         document.getElementById("message").innerHTML = "Times up";
         document.getElementById("message").style.color = "green";
         document.getElementById("message").style.fontFamily = "cursive";
@@ -21,6 +22,7 @@ const showTimerSecond = function () {
 const stopTimer = function () {
 
     clearInterval(second);
+    document.getElementById("message").style.display = "initial";
     document.getElementById("message").innerText = "You pause the timer";
     document.getElementById("message").style.color = "red";
     document.getElementById("message").style.fontFamily = "cursive";
@@ -28,6 +30,7 @@ const stopTimer = function () {
 
 const startTimer = function () {
     second = setInterval(showTimerSecond, 1000);
+    document.getElementById("message").style.display = "none";
 }
 
 const start_btn = document.getElementById("btn");
