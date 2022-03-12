@@ -65,3 +65,12 @@ body{
     transform: translateY(1.5px);
     color: white;
 }
+.popup{
+    position: fixed;
+    top: 3%;
+    left: 2%;
+    right: 2%;
+    bottom: 3%;
+    background-color: rebeccapurple;
+    z-index: 100;
+}

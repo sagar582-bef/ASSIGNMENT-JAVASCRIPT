@@ -50,6 +50,26 @@ for(let i=0;i<searh_value.data.length;i++){
     
      document.getElementById("check").classList.replace("trending-gif","hide");
      parent_id.appendChild(search_el);
+     search_el.addEventListener("click",function(){
+       search_el.style.height="90%";
+      search_el.style.width="70%";
+      search_el.style.position="absolute";
+      search_el.style.top="-20%";
+      search_el.style.left="15%";
+      search_el.style.right="15%";
+      search_el.style.bottom="5%";
+    search_el.style.zIndex="105";
+    search_el.id="just"
+    //  document.getElementsByTagName("search").style.display="none";
+     })
+
+     window.addEventListener("click", function(event){
+          if(event.target != document.getElementById("just")){
+           document.getElementById("just").style.display="none";
+             
+          }
+      })
+
 }
 }
 
