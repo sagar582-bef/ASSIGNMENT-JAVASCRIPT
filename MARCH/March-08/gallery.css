@@ -28,48 +28,48 @@ img{
   /* border-radius: 30px; */
   /* border: 1px solid black; */
   box-shadow: 0px 0px 4px 5px lightgray;
+  
 }
-/* .container{
-    display: flex;
-    flex-wrap: wrap;
- 
-    row-gap: 10px;
-    justify-content: center;
- 
-} */
+
 body{
     margin: 0px;
 }
 .main-container > div {
     padding-bottom: 10px;
 }
-p{
-    margin-top: -30px;
-    color: red;
-}
-.zoom-img{
+
+.show{
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    right: 5%;
   height: 80vh;
-  width: 96%;
-  position: fixed;
-  top: 2%;
-  left: 2%;
-  right: 2%;
-  bottom: 5%;
+  width: 90%;
+  z-index: 101;
+
+
  
-  background-image: url("https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559_960_720.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+ 
+ 
 }
-.show-btn{
-    position:fixed;
-    top: 4.8%;
-    right: 1.8%;
-    cursor: pointer;
+.show > img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+#zoom-img-container > button{
+   position: fixed;
+   top: 5%;
+   right: 3.5%;
     background-color: transparent;
     border-color: transparent;
-    transition: 120s;
+    cursor: pointer;
+    
 }
 .hide{
     display: none;
 }
+

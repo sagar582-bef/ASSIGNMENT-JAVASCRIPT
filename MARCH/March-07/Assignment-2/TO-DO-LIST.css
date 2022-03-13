@@ -85,3 +85,20 @@ video{
     min-width: 100%;
     z-index: -1;
 }
+#add-btn{
+    display: inline;
+    cursor: pointer;
+}
+#special{
+    background-color: transparent;
+    box-shadow: 0px 0px 0px transparent;
+}
+#custom-search{
+   text-align: center;
+   background-color: transparent;
+   box-shadow: 0px 0px 0px 0px transparent;
+    
+}
+#custom-search > input{
+    outline: transparent;
+}

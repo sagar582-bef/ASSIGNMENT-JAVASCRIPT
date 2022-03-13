@@ -38,18 +38,24 @@ const originial=function (sagar){
 
 
 const search_barFn= function(searh_value){
-//  console.log(searh_value.data);
+  console.log(searh_value.data);
+const parent_id=document.getElementById("search");
+parent_id.innerHTML='';
 for(let i=0;i<searh_value.data.length;i++){
      let search_result=searh_value.data[i];
-     const parent_id=document.getElementById("search");
+     
+      // parent_id.innerHTML='';
      const search_el=document.createElement("img");
+     
      search_el.src=search_result.images.original.url;
      search_el.style.height="100px";
      search_el.style.width="100px";
      search_el.style.boxShadow="0px 0px 2px 2px grey";
+     search_el.id=searh_value.data[i].id;
     
      document.getElementById("check").classList.replace("trending-gif","hide");
      parent_id.appendChild(search_el);
+     
      search_el.addEventListener("click",function(){
        search_el.style.height="90%";
       search_el.style.width="70%";
@@ -59,16 +65,17 @@ for(let i=0;i<searh_value.data.length;i++){
       search_el.style.right="15%";
       search_el.style.bottom="5%";
     search_el.style.zIndex="105";
-    search_el.id="just"
+    console.log(search_el.id);
+    // search_el.id="just";
     //  document.getElementsByTagName("search").style.display="none";
      })
 
-     window.addEventListener("click", function(event){
-          if(event.target != document.getElementById("just")){
-           document.getElementById("just").style.display="none";
+    //  window.addEventListener("click", function(event){
+    //       if(event.target != document.getElementById(searh_value.data[i].id)){
+    //        document.getElementById(searh_value.data[i].id).style.display="none";
              
-          }
-      })
+    //       }
+    //   })
 
 }
 }

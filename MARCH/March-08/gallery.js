@@ -1,3 +1,42 @@
+// const img_Arr=["https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.news18.com/ibnlive/uploads/2021/08/1628056310_dogdrinking-1600x1200.png","http://cdn.akc.org/content/article-body-image/samoyed_puppy_dog_pictures.jpg"];
+// const chnage_image = function(sagar){
+//      const new_id=sagar.target.id;
+//      console.log(sagar.target);
+//      //sagar.target.src = img_Arr[new_id];
+//      let last=document.getElementById("zoom-img");
+//      last.sagar.target.src=img_Arr[new_id];
+// }
+
+
+// const images=document.getElementsByTagName("img");
+// for(let i=0;i<images.length;i++){
+//   const result=images[i];
+//   result.addEventListener('click', chnage_image)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // var counter=[0,0,0,0,0,0,0,0];
 // function like(n,id){
 //     counter[n] += 1;
@@ -90,11 +129,11 @@
 //    }
 //  }
 //  )
-const elements = document.querySelectorAll('img');
+// const elements = document.querySelectorAll('img');
 
-// adding the event listener by looping
-elements.forEach(element => {
-   element.addEventListner('click', (e)=>{
-     console.log('someone hit me');
-   });
-});
+// // adding the event listener by looping
+// elements.forEach(element => {
+//    element.addEventListner('click', (e)=>{
+//      console.log('someone hit me');
+//    });
+// });
