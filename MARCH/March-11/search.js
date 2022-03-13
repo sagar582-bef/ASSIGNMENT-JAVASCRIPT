@@ -88,4 +88,4 @@ const searchFn= function(){
 }
 
 
-document.getElementById("search_btn").addEventListener('click',searchFn)
+document.getElementById("location_feild").addEventListener('click',searchFn)
