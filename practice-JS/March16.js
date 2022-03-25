@@ -162,32 +162,130 @@ const person={
 //      console.log(obj.dept);
 // }
 // printDetails(person);
-let clicked=false;
-const changeText=function(){
-  if(clicked==false){
-    document.getElementById("text").innerText="js practice";
-    document.getElementById("text").style.color="green";
-    clicked=true;
-  }
-  else{
-    document.getElementById("text").innerText="DOM practice";
-    document.getElementById("text").style.color="red";
-    clicked=false;
-  }
-}
-document.getElementById("btn").addEventListener("click",changeText);
+// let clicked=false;
+// const changeText=function(){
+//   if(clicked==false){
+//     document.getElementById("text").innerText="js practice";
+//     document.getElementById("text").style.color="green";
+//     clicked=true;
+//   }
+//   else{
+//     document.getElementById("text").innerText="DOM practice";
+//     document.getElementById("text").style.color="red";
+//     clicked=false;
+//   }
+// }
+// document.getElementById("btn").addEventListener("click",changeText);
 
 
 
 
-const dayChange=function(day){
-     document.getElementById("daytext").innerText=day;
-     document.getElementById("daytext").style.color="lightcoral";
-}
+// const dayChange=function(day){
+//      document.getElementById("daytext").innerText=day;
+//      document.getElementById("daytext").style.color="lightcoral";
+// }
 
 
-document.getElementById("btn1").addEventListener('click',dayChange("sunday"));
+// document.getElementById("btn1").addEventListener('click',dayChange("sunday"));
 
-document.getElementById("btn2").addEventListener('click',dayChange("monaday"));
+// document.getElementById("btn2").addEventListener('click',dayChange("monaday"));
 
 // document.getElementById("btn3").addEventListener("click",dayChange("tuesday"));
+
+const vowel=['a','e','i','o','u'];
+// for(let i=0;i<input.length;i++){
+// //  if(input.charAt(i)=="a" || input.charAt(i)=="u" ||input.charAt(i)=="o" || input(i).charAt=="i" || input(i).charAt=="e"){
+// //  count++;
+// //  }
+ 
+// }
+
+// for(let i of input){
+//   if(vowel.includes(i)){
+//     count++;
+//   }
+// }
+// console.log(count);
+// const result=(first,sec)=>{
+//   if( first.length == sec.length && first.split("").sort().join("") == sec.split("").sort().join("")){
+//      alert("this is palindrome");
+//   }
+//   else{
+//     alert("fuck you");
+//   }
+  // let reverse_str=re.split("").reverse().join("");
+  // if(reverse_str === re){
+  //   alert("this is palindrome");
+  // }
+  // else{
+  //   alert("fuck you");
+  // }
+// }
+// let input=prompt("enter a string");
+// let second=prompt("enter a string");
+// let count=0;
+// result(input,second);
+// const num=+prompt("enter a number");
+// let n1=0;
+// let n2=1;
+// let next;
+// console.log(n1);
+// console.log(n2);
+// for(i=1;i<num;i++){
+//   next=n1+n2;
+//   console.log(next);
+//   n1=n2;
+//   n2=next;
+
+// }
+
+// const num=+prompt("enter a number");
+// let sum=0;
+// let temp=num;
+// if(isNaN(temp)==false){
+//   while(temp>0){
+//     let reminder=(temp%10);
+//     sum +=reminder*reminder*reminder;
+//     temp=parseInt(temp/10);
+//  }
+//  if(sum==num){
+//    alert("this is amstrong");
+//  }
+//  else{
+//    alert("fuck you");
+//  }
+ 
+// }
+  
+// else{
+//   alert("please give a number not string");
+// }
+// const myarr=[];
+// const input=prompt("please enter a limit");
+// for(let i=0;i<input;i++){
+//     let valu=prompt("please enter a value");
+//     myarr.push(valu);
+// }
+
+
+
+
+// const big=(val)=>{
+//      let result =val.sort();
+//      console.log(result[0]);
+// }
+// big(myarr);
+// for(let i=0;i<myarr.length;i++){
+//   for(let j=i+1;j<myarr.length;j++){
+//     if(myarr[j]==myarr[i]){
+//           //  alert(myarr[j]);
+//           console.log(myarr[j]);
+//     }
+//   }
+// }
+// console.log(myarr);
+// function Unique(arr){
+//   let uniqueArr=[...new Set(arr)];
+//   console.log(uniqueArr);
+// }
+// Unique(myarr);
